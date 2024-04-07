@@ -1,0 +1,273 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+
+}
+
+/* navbar */
+
+nav {
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    background-color: #e5e5e5;
+    position: sticky;
+    top: 0;
+}
+
+#right span:hover {
+    background-color: #14213d;
+    border-radius: 50%;
+    padding: 3.5px;
+    color: whitesmoke;
+    cursor: pointer;
+    transform: translate(2);
+}
+
+#left span{
+    display: none;
+}
+
+nav h1 {
+    font-size: 30px;
+    font-weight: 600;
+    color: #14213d;
+}
+
+#login {
+    background-color: #14213d;
+    color: white;
+    padding: 4px 6px;
+    border-radius: 8px;
+}
+
+nav i {
+    position: absolute;
+    right: 12px;
+    top: 9px;
+    font-size: 16px;
+}
+
+#search {
+    position: relative;
+}
+
+#search input {
+    width: 40vw;
+    height: 35px;
+    padding-left: 10px;
+    border-radius: 30px;
+    border: 0.5px solid black;
+    box-shadow: 1.5px 1.5px gray;
+}
+
+#right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#underline:hover {
+    text-decoration: underline;
+    color: #14213d;
+    transform: translate(2s);
+    transition-duration: 2s;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+/* marquee */
+
+marquee {
+    text-transform: uppercase;
+    padding: 7px;
+    background-color: blueviolet;
+    color: whitesmoke;
+    letter-spacing: 3px;
+}
+
+/* banners */
+
+#banners img {
+    width: 100%;
+    height: 400px;
+}
+
+/* bottom navbar */
+
+#botnav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 35px;
+    position: sticky;
+    bottom: 0;
+    background-color: #e5e5e5;
+}
+
+#botnav i {
+    font-size: 12px;
+}
+
+#botnav p {
+    font-size: 10px;
+}
+
+#botnav div {
+    text-align: center;
+    background-color: #14213d;
+    padding: 5px 20px;
+    border-radius: 20px;
+    color: whitesmoke;
+    font-size: 15px;
+}
+
+#botnav div:hover {
+    cursor: pointer;
+}
+
+/* category section */
+
+#categories {
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+#options {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    text-align: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+#categories h1 {
+    padding-left: 40px;
+}
+
+#categories img {
+    height: 110px;
+    width: 110px;
+    border: none;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+#categories p {
+    font-size: 21px;
+}
+
+/* products section */
+
+#products {
+    margin-top: 25px;
+}
+
+#products h1 {
+    padding-left: 40px;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+#items {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 25px;
+    margin-bottom: 30px;
+}
+
+#items p {
+    font-family: "Comme", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+#items img {
+    height: 280px;
+    width: 200px;
+}
+
+#items div {
+    border: 0.5px solid #14213d;
+    margin: 0px 20px;
+    padding-bottom: 15px;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+#items span {
+    font-size: 22px;
+}
+
+#load {
+    display: flex;
+    justify-content: center;
+}
+
+#load button {
+    padding: 3px 5px;
+    border-radius: 5px;
+    background-color: #fca311;
+    border: 0.5px solid black;
+    cursor: pointer;
+    font-family: "Comme", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+body>h2 {
+    color: #14213d;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    font-size: 35px;
+}
+
+/* footer */
+
+footer {
+    background-color: #14213d;
+}
+
+footer a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: "Comme", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+footer span {
+    margin: 0px 0px;
+    color: whitesmoke;
+    font-size: 25px;
+    margin: auto;
+}
+
+footer i {
+    color: whitesmoke;
+    font-size: 27px;
+    padding-top: 10px;
+
+}
+
+#footops {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+    gap: 5px;
+    padding: 10px;
+}

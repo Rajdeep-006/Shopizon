@@ -1,0 +1,159 @@
+@media screen and (max-width:479px) {
+    /* navbar */
+
+    nav {
+        height: 50px;
+        padding: 10px;
+        align-items: center;
+    }
+
+    #left span{
+        display: block;
+        font-weight: 550;
+    }
+
+    nav h1 {
+        display: none;
+    }
+
+    nav #login,
+    #underline {
+        display: none;
+    }
+
+    span {
+        font-size: 17px !important;
+    }
+
+    nav i {
+        top: 7px;
+    }
+
+    #right {
+        gap: 7.5px;
+    }
+
+    #search input {
+        width: 67vw;
+        height: 27px;
+    }
+
+    marquee {
+        padding: 5px;
+        font-size: 10px;
+    }
+
+    /* banners */
+
+    #banners img {
+        height: 180px;
+    }
+
+    /* botnav */
+
+    #botnav {
+        padding: 4px 20px;
+        height: 40px;
+    }
+
+    #botnav p {
+        display: none;
+    }
+
+    #botnav i {
+        font-size: 11px;
+    }
+
+    #botnav div {
+        padding: 1px 12px;
+    }
+
+    /* footer */
+
+    footer a {
+        font-size: 7px;
+    }
+
+    footer i {
+        padding-top: 2px;
+        font-size: 13px;
+    }
+
+    body>h2 {
+        padding-bottom: 10px;
+        font-size: 4vw;
+    }
+
+    /* categories */
+
+    #categories {
+        margin-top: 5px;
+    }
+
+    #categories h1 {
+        padding-left: 30px;
+        font-size: 25px;
+    }
+
+    #options {
+        padding: 0px 10px;
+        grid-template-columns: repeat(4, 1fr);
+        margin-top: 5px;
+    }
+
+    #categories img {
+        height: 70px;
+        width: 70px;
+    }
+
+    #categories p {
+        font-size: 11px;
+    }
+
+
+    /* products */
+
+    #products {
+        margin-top: 20px;
+    }
+
+    #products h1 {
+        padding-left: 30px;
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+
+    #items {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 25px 0px;
+        margin-bottom: 15px;
+    }
+
+    #items img {
+        height: 100px;
+        width: 60px;
+    }
+
+    #items p {
+        font-size: 9px;
+    }
+
+    #items span {
+        display: none;
+    }
+
+    #items div {
+        padding-bottom: 5px;
+        margin: 0px 10px;
+    }
+
+    #load button {
+        font-size: 6px;
+        padding: 2px 4px;
+    }
+
+    body>h2 {
+        padding-top: 5px;
+    }
+
+}
